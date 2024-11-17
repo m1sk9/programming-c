@@ -1,20 +1,7 @@
-[tool.poetry]
+[project]
 name = "programming-c"
 version = "0.1.0"
-description = ""
-authors = ["m1sk9 <me@m1sk9.dev>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-numpy = "^2.1.2"
-pandas = "^2.2.3"
-matplotlib = "^3.9.2"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.pyright]
-venvPath = "/Users/m1sk9/.local/share/mise/installs/python/3.11.10/bin/python"
-venv = "/Users/m1sk9/.local/share/mise/installs/python/3.11.10/bin/python"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.1.3",
+]
